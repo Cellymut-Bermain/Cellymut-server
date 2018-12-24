@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "root",
+    "password": "qbit!@#456",
+    "database": "cellymut",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "secret_key": "cellymutBermain",
+  "key": "2d2d3b4ac163a776dabb54b7c763d181"
+}
