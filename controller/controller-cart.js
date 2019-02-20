@@ -294,7 +294,7 @@ class Controller {
 
     static fetchingRajaOngkir (req, res) {
         let destination = req.body.destination
-        let weight = 4000
+        let weight = req.body.weight*1000
         let courier = req.body.courier
         let origin = 151
         axios.post('https://api.rajaongkir.com/starter/cost',{

@@ -15,7 +15,8 @@ class Controler {
                 {
                     model: Transaction
                 }
-            ]
+            ],
+            order: [['createdAt', 'DESC']],
         })
             .then(updates=> {
                 res.json({
@@ -47,7 +48,8 @@ class Controler {
             ],
             where: {
                 UserId
-            }
+            },
+            order: [['createdAt', 'DESC']],
         })
             .then((updates)=> {
                 res.json({

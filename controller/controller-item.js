@@ -192,7 +192,7 @@ class Controller {
         let color = req.body.color
         let size = req.body.size
         let updated_at = new Date()
-        console.log(req.body)
+        console.log(req.bodyc)
         Item.update({
             item_name,
             item_price,
